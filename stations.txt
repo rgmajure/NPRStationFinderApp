@@ -1,0 +1,10 @@
+Station_Call_Letters,Station_Band,Station_Frequency,Station_City,Station_State,Station_Format, Station_Latitude,Station_Longitude, Station_Weather, Station_Temperature, Station_Tagline, Station_Programfeedurl
+Seattle,KUOW,FM,94.9,Seattle,WA,NPR,Partly Cloudy,36.63,Sound stories. Sound voices.,https://replay.omny.fm/feeds/npr/morning-edition/kuow-fm.rss
+Portland,KOPB,FM,91.5,Portland,OR,NPR,Overcast,32,News. Arts. Life.,https://replay.omny.fm/feeds/npr/morning-edition/kopb-fm.rss
+Memphis,KUOW,FM,94.9,Seattle,WA,NPR,Drizzle,40,Sound stories. Sound voices.,https://replay.omny.fm/feeds/npr/morning-edition/kuow-fm.rss
+Spokane,KPBX,FM,91.1,Spokane,WA,NPR,Overcast,31,Spokane Public Radio. stations KPBX. KSFC. KPBZ,https://replay.omny.fm/feeds/npr/morning-edition/kpbx-fm.rss
+Coupeville,No Station Found,No Station Found,No Station Found,No Station Found,No Station Found,NPR,Station Not Found,Station Not Found,No Station Found,No Station Found
+Phoenix,KJZZ,FM,91.5,Phoenix,AZ,NPR,Clear,34,Your News and Information Station: Informed. Accurate. Credible,https://replay.omny.fm/feeds/npr/morning-edition/kjzz-fm.rss
+Coupeville,No Station Found,No Station Found,No Station Found,No Station Found,No Station Found,NPR,Station Not Found,Station Not Found,No Station Found,No Station Found
+Coupeville,No Station Found,No Station Found,No Station Found,No Station Found,No Station Found,NPR,Station Not Found,Station Not Found,No Station Found,No Station Found
+Seattle,KUOW,FM,94.9,Seattle,WA,NPR,Rain,45,Sound stories. Sound voices.,https://replay.omny.fm/feeds/npr/morning-edition/kuow-fm.rss

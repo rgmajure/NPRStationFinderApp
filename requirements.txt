@@ -1,0 +1,4 @@
+# Minimum packages for azure functions
+# Additional packages
+requests==2.22.0
+json-extensions
