@@ -20,7 +20,4 @@ class Station:
 		self.station_weather_temperature = station_weather_temperature
 		self.station_tagline = station_tagline
 		self.station_programfeedurl = station_programfeedurl
-		self.stations_row = str(station_search_parameter) + ',' + str(station_call_letters) + ',' + str(station_band) + ',' + str(station_frequency) + ',' + str(station_city) + ',' + str(station_state) + ',' + str(station_format) + ',' + str(station_weather_summary) + str(station_weather_temperature) + ',' + str(station_tagline) + ',' + str(station_programfeedurl) + '\n'
 		stations.append(self)
-
-
