@@ -110,7 +110,7 @@ def NPRoneaccess(station_search_parameter,authorization_token,
 		stationstreamtype = "NPR Daily Call Limit Exceeded"
 		stationstreamurl = "NPR Daily Call Limit Exceeded"
 
-	#Let's populate the stationdate Python dictionary.
+	#Let's populate the stationdata Python dictionary.
 	stationdata = {"band" : band, "call" : call, "freq"
 	: freq, "marketCity" : marketCity, "marketState" : marketState, "tagline"
 	: tagline, "programfeedname": programfeedname, "programfeedurl": programfeedurl,
