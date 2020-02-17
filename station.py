@@ -1,5 +1,5 @@
 stations = []
-#This the Station class used for retreiving and storing station data.
+#This the Station class used for retrieving and storing station data.
 #At this point, I've not defined any methods; preferring to use the other functions for API access, etc.
 
 class Station:
