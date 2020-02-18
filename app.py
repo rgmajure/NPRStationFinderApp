@@ -149,9 +149,9 @@ def stations_page():
                                                               weather_longitude,
                                                               weather_auth,
                                                               weather_test_mode, generate_weathertest_file)
-                            # Check for valid url response
-                            weather_valid = (weather["valid"])
-                          # If we received a valid weather response, store it for previously searched stations
+                            #Check for valid url response
+                            weather_valid = weather["valid"]
+                            #If we received a valid weather response, store it for previously searched stations
                             if (weather_valid == True):
                                 old_station_weather_summary = (weather["summary"])
                                 old_station_weather_temperature = int(weather["temperature"])
