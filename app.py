@@ -70,7 +70,7 @@ with open('stations.txt') as csv_file:
                     old_station_latitude = weather_latitude
                     old_station_longitude = weather_longitude
                     #If we received a valid weather response, store it for previously searched stations
-                    if(weather_valid == True):
+                    ifweather_valid == True:
                         old_station_weather_summary = (weather["summary"])
                         old_station_weather_temperature = int(weather["temperature"])
                     else:
@@ -82,7 +82,7 @@ with open('stations.txt') as csv_file:
                     old_station_weather_summary = "unavailable"
                     old_station_weather_temperature = "unavailable"
 
-#               update existing stations with updated weather information
+                #update existing stations with updated weather information
                 old_station = Station(old_station_search_parameter, old_station_call_letters, old_station_band,
                                   old_station_frequency, old_station_city,
                                   old_station_state, old_station_format,
