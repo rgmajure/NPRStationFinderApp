@@ -129,7 +129,8 @@ def stations_page():
                     old_station_format = row[6]
                     old_station_tagline = row[9]
                     old_station_programfeedurl = str(row[10])
-
+                    
+                    #Prepare for duplication check later by saving the old station
                     if old_station_call_letters != "No Station Found":
                         station_call_letters_dup.append(old_station_call_letters)
                         station_city_dup.append(old_station_city)
