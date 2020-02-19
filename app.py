@@ -203,12 +203,12 @@ def stations_page():
             #If we find a valid station, we retrieve the needed data from the JSON-like response(Python data dictionary)
 
 
-            new_station_call_letters = (NPRstation["call"])
-            new_station_band = (NPRstation["band"])
-            new_station_frequency = (NPRstation["freq"])
-            new_station_city = (NPRstation["marketCity"])
-            new_station_state = (NPRstation["marketState"])
-            new_station_tagline = (NPRstation["tagline"])
+            new_station_call_letters = NPRstation["call"]
+            new_station_band = NPRstation["band"]
+            new_station_frequency = NPRstation["freq"]
+            new_station_city = NPRstation["marketCity"]
+            new_station_state = NPRstation["marketState"]
+            new_station_tagline = NPRstation["tagline"]
             new_station_programfeedurl = str((NPRstation["programfeedurl"]))
 
             if NPRstation_valid:
