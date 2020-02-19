@@ -176,22 +176,20 @@ def stations_page():
                     line_count += 1
         csv_file.close()
 
-#       Prompt user for input
+        #Prompt user for input
         station_search_parameter = request.form.get("station_search_parameter", "")
 
-#       Obtain NPR station data
+        #Obtain NPR station data
 
         new_station_search_parameter = str(station_search_parameter)
 
         #check for duplication
         skip = False
         for i in range(len(station_city_dup)):
-            print(station_city_dup[i])
             if station_city_dup[i] == new_station_search_parameter:
                 skip = True
             if station_call_letters_dup[i] == new_station_search_parameter:
                 skip = True
-        print(skip)
 
         if skip == False:
 
