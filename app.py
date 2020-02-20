@@ -197,7 +197,7 @@ def stations_page():
                                                    NPR_authorization_token,
                                                    NPRstation_test_mode,
                                                    generate_NPRstationtest_file)
-            NPRstation_valid = (NPRstation["stationvalid"])
+            NPRstation_valid = NPRstation["stationvalid"]
             NPR_daily_limit = NPRstation["NPR_daily_limit"]
 
             #If we find a valid station, we retrieve the needed data from the JSON-like response(Python data dictionary)
@@ -229,7 +229,7 @@ def stations_page():
                                               weather_auth,
                                               weather_test_mode, generate_weathertest_file)
                     # Check for valid url response
-                    weather_valid = (weather["valid"])
+                    weather_valid = weather["valid"]
                     # If we received a valid weather response, store it for previously searched stations
                     if weather_valid == True:
                        new_station_weather_summary= weather["summary"]
