@@ -66,12 +66,12 @@ with open('stations.txt') as csv_file:
                             weather_auth,
                             weather_test_mode, generate_weathertest_file)
                     #Check for valid url response
-                    weather_valid = (weather["valid"])
+                    weather_valid = weather["valid"]
                     old_station_latitude = weather_latitude
                     old_station_longitude = weather_longitude
                     #If we received a valid weather response, store it for previously searched stations
                     ifweather_valid == True:
-                        old_station_weather_summary = (weather["summary"])
+                        old_station_weather_summary = weather["summary"]
                         old_station_weather_temperature = int(weather["temperature"])
                     else:
                         #List weather as unavailable for previously searched stations
@@ -153,7 +153,7 @@ def stations_page():
                             weather_valid = weather["valid"]
                             #If we received a valid weather response, store it for previously searched stations
                             if (weather_valid == True):
-                                old_station_weather_summary = (weather["summary"])
+                                old_station_weather_summary = weather["summary"]
                                 old_station_weather_temperature = int(weather["temperature"])
                             else:
                                 # List weather as unavailable for previously searched stations
@@ -232,7 +232,7 @@ def stations_page():
                     weather_valid = (weather["valid"])
                     # If we received a valid weather response, store it for previously searched stations
                     if weather_valid == True:
-                       new_station_weather_summary= (weather["summary"])
+                       new_station_weather_summary= weather["summary"]
                        new_station_weather_temperature = int(weather["temperature"])
                     else:
                         # List weather as unavailable for the searched stations
